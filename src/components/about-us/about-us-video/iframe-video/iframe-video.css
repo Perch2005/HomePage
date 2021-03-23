@@ -1,0 +1,20 @@
+.iframe-container{
+    z-index: 999;
+    padding:0px ;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 30%;
+}
+.iframe-container>iframe{
+    height:500px ;
+    width:700px;
+    padding: 0;
+    border: none;
+}
+@media only screen and (max-width: 849px) {
+    .iframe-container>iframe{
+        height:200px ;
+        width:400px;
+    }
+    }
