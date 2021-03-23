@@ -1,0 +1,73 @@
+.faculties-container{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+}
+.faculties-name{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 50px; 
+}
+.faculties-imgs{
+    margin-bottom: 20px;
+}
+.faculties-container>span{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 20px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.discounts>div{
+    display: flex;
+    justify-content: space-between;
+    background: #F8F8F8;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    margin: 0 20px 0 20px;
+    
+}
+.people-circle{
+    background-image: url(../imgs/Ellipse_30.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:70%;
+    height: 70%;
+    margin: auto;
+    z-index: 999;
+    margin-bottom: 50px;
+}
+.people-circle>img{
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 200px;
+}
+
+.people-back{
+    background-repeat: no-repeat;
+    clip-path: circle(290px at center 0);
+    box-shadow: 1px 31px 62px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    
+}
+
+.people-back-name>h2{
+    width: 250px;
+    margin-left:50px ;
+}
+.people-back-name{
+    color: white;
+    text-align: center;
+}
+
+.more-info-button{
+    margin-left: 30px;
+}

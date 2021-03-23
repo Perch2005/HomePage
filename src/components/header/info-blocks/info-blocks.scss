@@ -1,0 +1,27 @@
+.info-block-container{
+   display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    background: white;
+    font-family: sans-serif;
+    flex-wrap: wrap;  
+}
+
+.info-block-container>span{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+.info-block-container>span>div>h4{
+    font-size: 25px;
+    color: #604CDA;
+    margin: 10px;
+}
+.info-block-container>span>div>p{
+    width: 330px;
+
+}

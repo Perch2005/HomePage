@@ -1,0 +1,15 @@
+.nav-bar-container{
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+}
+.nav-bar-container>span{
+    margin:20px;
+}
+.nav-bar-container>ul{
+    display: flex;
+    list-style: none;
+}
+.nav-bar-container>ul>li{
+    margin: 20px;
+}
